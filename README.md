@@ -6,7 +6,9 @@ Tutorial description: React booking system design tutorial. React hotel reservat
 ___________
 
 ### Software versions
-
+	Fontawesome-svg-core - 6.3.1
+	React 18
+	React Router Dom - 6.8.2
 ### Problems in the project:
 1.
 2.
@@ -14,8 +16,13 @@ ___________
 ### How to use
 
 ### Photos of project:
+![navigation](images/lamabooking_forreadme.png)
 
 ### Apps used:
+	Sublime Text [](https://www.sublimetext.com)
+	Vivaldi Browser [vivaldi](https://vivaldi.com)
+	Tabby for terminal [tabby](tabby.sh)
+	Google Chrome
 
 ### Coding styles I used:
 
