@@ -19,10 +19,10 @@ ___________
 ![navigation](images/lamabooking_forreadme.png)
 
 ### Apps used:
-	Sublime Text [](https://www.sublimetext.com)
-	Vivaldi Browser [vivaldi](https://vivaldi.com)
-	Tabby for terminal [tabby](tabby.sh)
-	Google Chrome
+- [Sublime text editor](https://www.sublimetext.com)
+- [Vivaldi web browser](https://vivaldi.com)
+- [Tabby terminal](tabby.sh)
+- [Chrome web browser](https://www.google.com/chrome/)
 
 ### Coding styles I used:
 
