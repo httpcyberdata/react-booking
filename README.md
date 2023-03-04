@@ -26,3 +26,4 @@ ___________
 ### Coding styles I used:
 
 ### What I learned
+1. I learned about 'react-date-range' and how they have a DateRange component for selecting a range of dates. Similar functionality to the one Airbnb has. 
