@@ -1,5 +1,4 @@
 # React Booking | Reservation App UI Design for Beginners
-![]
 Tutorial URL: https://www.youtube.com/watch?v=RkWpJ4XUHuw
 Tutorial description: React booking system design tutorial. React hotel reservation app UI design using HTML, CSS, and React Calendar.
 

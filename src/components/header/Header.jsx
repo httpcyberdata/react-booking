@@ -53,6 +53,11 @@ const Header = () => {
 					<div className="headerSearchItem">
 						<FontAwesomeIcon icon={faPerson} className="headerIcon" /> 
 						<span className="headerSearchText">2 adults 2 children 1 room</span>
+					</div>	
+					<div className="headerSearchItem">
+						<button className="headerBtn">
+							Search
+						</button>
 					</div>
 				</div>
 			</div>
