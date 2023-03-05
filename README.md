@@ -16,6 +16,7 @@ ___________
 
 ### Photos of project:
 ![navigation](images/lamabooking_forreadme.png)
+![calendar/reservation](images/lamabooking1_gif.gif)
 
 ### Apps used:
 - [Sublime text editor](https://www.sublimetext.com)
