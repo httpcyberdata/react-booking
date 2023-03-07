@@ -18,6 +18,7 @@ ___________
 ![navigation](images/lamabooking_forreadme.png)
 ![calendar/reservation](images/lamabooking1_gif.gif)
 ![lamabooking](images/lamabooking2.png)
+![lamabooking 3](images/react-booking_3.png)
 
 ### Apps used:
 - [Sublime text editor](https://www.sublimetext.com)
