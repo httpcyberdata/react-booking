@@ -43,6 +43,9 @@ const SearchItem = () => {
 					<span className="siTaxOp">
 						Includes taxes and fees
 					</span>
+					<button className="siCheckButton">
+						See availability
+					</button>
 				</div>
 			</div>
 		</div>
