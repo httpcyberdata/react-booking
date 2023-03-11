@@ -1,13 +1,16 @@
 import './hotel.css';
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../../components/navbar/Navbar';
 import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
+import MailList from '../../components/mailList/MailList';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
-
+import { faLocationDot, faCircleXmark, faCircleArrowRight, faCircleArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 
 const Hotel = () => {
+	const [slideNumber, setSlideNumber] = useState(0);
+	const [open, setOpen] = useState(false);
 	const photos = [
     {
       src: "https://cf.bstatic.com/xdata/images/hotel/max1280x900/261707778.jpg?k=56ba0babbcbbfeb3d3e911728831dcbc390ed2cb16c51d88159f82bf751d04c6&o=&hp=1",
@@ -29,12 +32,25 @@ const Hotel = () => {
     },
   ];
 
+  const handleOpen = (i) => {
+  	setSlideNumber(i);
+  	setOpen(true);
+  }
+
 	return (
 		<div>
 			<Navbar/>
 			<Header type="list" />
 			<div className="hotelContainer">
+				{open && <div className="slider">
+							<FontAwesomeIcon icon={faCircleXmark} />
+							<FontAwesomeIcon icon={faCircleArrowLeft} />
+							<FontAwesomeIcon icon={faCircleArrowRight} />
+				</div>}
 				<div className="hotelWrapper">
+					<button className="bookNow">
+						Reserve or Book Now!
+					</button>
 					<h1 className="hotelTitle">
 						Grand Hotel
 					</h1>
@@ -51,9 +67,9 @@ const Hotel = () => {
 							Book a stay over $114 at this property and get a free airport taxi
 						</span>
 						<div className="hotelImages">
-							{photos.map(photo => (
+							{photos.map((photo, i) => (
 								<div className="hotelImgWrapper">
-									<img src={photo.src} className="hotelImg" />
+									<img onClick={handleOpen} src={photo.src} className="hotelImg" />
 								</div>
 							))}
 						</div>
@@ -87,6 +103,12 @@ const Hotel = () => {
 							</div>
 						</div>
 					</div>
+					<MailList
+
+						 />
+					<Footer 
+
+					/>
 				</div>
 			</div>
 	)
